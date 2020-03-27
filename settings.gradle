@@ -1,0 +1,2 @@
+include ':app', ':socialmedialauth'
+rootProject.name='SpcialSDKExample'

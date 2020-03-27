@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="com.cashu.socialmedialauth.googleWebClientId" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.googleWebClientId</string>
+
+    <string name="com.cashu.socialmedialauth.facebookId" tools:ignore="ExtraTranslation">com.facebook.sdk.ApplicationId</string>
+
+
+    <string name="com.cashu.socialmedialauth.twitterConsumerKey" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.twitterConsumerKey</string>
+    <string name="com.cashu.socialmedialauth.twitterConsumerSecret" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.twitterConsumerSecret</string>
+
+
+    <string name="com.cashu.socialmedialauth.instagramClientId" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramClientId</string>
+    <string name="com.cashu.socialmedialauth.instagramClientSecret" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramClientSecret</string>
+    <string name="com.cashu.socialmedialauth.instagramRedirectUrl" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramRedirectUrl</string>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SocialMedialAuth</string>
+    <string name="sa_loading">Loading</string>
+    <string name="com_jaychang_sa_facebookId">463148941285851</string>
+    <string name="com_jaychang_sa_instagramClientId"></string>
+    <string name="com_jaychang_sa_instagramClientSecret"></string>
+    <string name="com_jaychang_sa_instagramRedirectUrl"></string>
+    <string name="com_jaychang_sa_googleWebClientId">73096447522-38052m49oomeci86g8ome9c6ge6f4med.apps.googleusercontent.com</string>
+    <string name="com_jaychang_sa_twitterConsumerKey">sLLkT65B2spnP8vPfQLHwhh7O</string>
+    <string name="com_jaychang_sa_twitterConsumerSecret">rerqAzCm3ID5TpqP7HMO7XVtltUcA16KzFD04lEFboZtn5Y7dG</string>
+
+</resources>
