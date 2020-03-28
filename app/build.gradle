@@ -27,7 +27,8 @@ android {
     }
     android.defaultConfig.manifestPlaceholders = [
             googleWebClientId    : "73096447522-38052m49oomeci86g8ome9c6ge6f4med.apps.googleusercontent.com",
-            facebookAppId        : "463148941285851",
+            facebookAppId        : "1304293012980751",
+            facebookLoginProtocolSchema        : "fb1304293012980751",
             instagramClientId    : "76bedc2d27dd4e52841e576d4ce8cc79",
             instagramClientSecret: "28d91eb23ab440beb55b3a3f112f4bb2",
             instagramRedirectUrl : "https://localhost/oauth2redirect",

@@ -1,75 +1,92 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.cashu.socialmedialauth"  >
+    package="com.sa"  >
     <application>
+
+
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.facebookId"
+            android:name="com.facebook.sdk.ApplicationId"
             android:value="\ ${facebookAppId}" />
 
         <activity
-            android:name=".facebook.FacebookAuthActivity"
+            android:name="com.sa.facebook.FacebookAuthActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:launchMode="singleTask"
             android:excludeFromRecents="true" />
 
         <activity
             android:name="com.facebook.FacebookActivity"
+            android:label="@string/app_name"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation" />
+
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="\ ${facebookLoginProtocolSchema}" />
+            </intent-filter>
+        </activity>
+
 
         <provider
             android:authorities="${applicationId}.FacebookInitProvider"
-            android:name="com.cashu.socialmedialauth.facebook.FacebookInitProvider"
+            android:name="com.sa.facebook.FacebookInitProvider"
             android:exported="false" />
 
 
         <provider
             android:authorities="${applicationId}.SimpleAuthInitProvider"
-            android:name="com.cashu.socialmedialauth.SimpleAuthInitProvider"
+            android:name="com.sa.SimpleAuthInitProvider"
             android:exported="false" />
 
 
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.instagramClientId"
+            android:name="@string/com.sa.instagramClientId"
             android:value="\ ${instagramClientId}" />
 
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.instagramClientSecret"
+            android:name="@string/com.sa.instagramClientSecret"
             android:value="\ ${instagramClientSecret}" />
 
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.instagramRedirectUrl"
+            android:name="@string/com.sa.instagramRedirectUrl"
             android:value="\ ${instagramRedirectUrl}" />
 
         <activity
-            android:name=".instagram.InstagramAuthActivity"
+            android:name="com.sa.instagram.InstagramAuthActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:excludeFromRecents="true"
             android:launchMode="singleTask" />
 
 
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.twitterConsumerKey"
+            android:name="@string/com.sa.twitterConsumerKey"
             android:value="\ ${twitterConsumerKey}" />
 
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.twitterConsumerSecret"
+            android:name="@string/com.sa.twitterConsumerSecret"
             android:value="\ ${twitterConsumerSecret}" />
 
         <activity
-            android:name=".twitter.TwitterAuthActivity"
+            android:name="com.sa.twitter.TwitterAuthActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:excludeFromRecents="true"
             android:launchMode="singleTask" />
 
         <provider
             android:authorities="${applicationId}.TwitterInitProvider"
-            android:name=".twitter.TwitterInitProvider"
+            android:name="com.sa.twitter.TwitterInitProvider"
             android:exported="false" />
         <meta-data
-            android:name="@string/com.cashu.socialmedialauth.googleWebClientId"
+            android:name="@string/com.sa.googleWebClientId"
             android:value="\ ${googleWebClientId}" />
 
         <activity
-            android:name=".google.GoogleAuthActivity"
+            android:name="com.sa.google.GoogleAuthActivity"
             android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:excludeFromRecents="true"
             android:launchMode="singleTask" />

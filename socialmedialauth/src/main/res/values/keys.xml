@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <string name="com.cashu.socialmedialauth.googleWebClientId" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.googleWebClientId</string>
+    <string name="com.sa.googleWebClientId" tools:ignore="ExtraTranslation">com.sa.googleWebClientId</string>
 
-    <string name="com.cashu.socialmedialauth.facebookId" tools:ignore="ExtraTranslation">com.facebook.sdk.ApplicationId</string>
-
-
-    <string name="com.cashu.socialmedialauth.twitterConsumerKey" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.twitterConsumerKey</string>
-    <string name="com.cashu.socialmedialauth.twitterConsumerSecret" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.twitterConsumerSecret</string>
+    <string name="com.sa.facebookId" tools:ignore="ExtraTranslation">com.facebook.sdk.ApplicationId</string>
 
 
-    <string name="com.cashu.socialmedialauth.instagramClientId" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramClientId</string>
-    <string name="com.cashu.socialmedialauth.instagramClientSecret" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramClientSecret</string>
-    <string name="com.cashu.socialmedialauth.instagramRedirectUrl" tools:ignore="ExtraTranslation">com.cashu.socialmedialauth.instagramRedirectUrl</string>
+    <string name="com.sa.twitterConsumerKey" tools:ignore="ExtraTranslation">com.sa.twitterConsumerKey</string>
+    <string name="com.sa.twitterConsumerSecret" tools:ignore="ExtraTranslation">com.sa.twitterConsumerSecret</string>
+
+
+    <string name="com.sa.instagramClientId" tools:ignore="ExtraTranslation">com.sa.instagramClientId</string>
+    <string name="com.sa.instagramClientSecret" tools:ignore="ExtraTranslation">com.sa.instagramClientSecret</string>
+    <string name="com.sa.instagramRedirectUrl" tools:ignore="ExtraTranslation">com.sa.instagramRedirectUrl</string>
 </resources>

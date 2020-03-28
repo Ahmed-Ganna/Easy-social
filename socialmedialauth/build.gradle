@@ -27,19 +27,6 @@ android {
         }
     }
 
-
-//    android.buildTypes.debug.manifestPlaceholders = [
-//            googleWebClientId    : "73096447522-38052m49oomeci86g8ome9c6ge6f4med.apps.googleusercontent.com",
-//            facebookAppId        : "463148941285851",
-//            twitterConsumerKey   : "sLLkT65B2spnP8vPfQLHwhh7O",
-//            twitterConsumerSecret: "rerqAzCm3ID5TpqP7HMO7XVtltUcA16KzFD04lEFboZtn5Y7dG",
-//            instagramClientId    : "76bedc2d27dd4e52841e576d4ce8cc79",
-//            instagramClientSecret: "28d91eb23ab440beb55b3a3f112f4bb2",
-//            instagramRedirectUrl : "https://localhost/oauth2redirect",
-//
-//    ]
-
-
 }
 
 dependencies {
@@ -51,7 +38,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-    implementation 'com.facebook.android:facebook-android-sdk:4.42.0'
+    implementation 'com.facebook.android:facebook-login:5.15.3'
+    implementation 'com.facebook.android:facebook-core:5.15.3'
     implementation 'com.google.android.gms:play-services-auth:17.0.0'
     implementation('com.twitter.sdk.android:twitter:3.3.0@aar') {
         transitive = true

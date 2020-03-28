@@ -4,11 +4,10 @@ import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import com.cashu.socialmedialauth.AuthCallback
-import com.cashu.socialmedialauth.SimpleAuth
-import com.cashu.socialmedialauth.SocialUser
+import com.sa.AuthCallback
+import com.sa.SimpleAuth
+import com.sa.SocialUser
 import java.util.*
-import kotlin.math.log
 
 class MainActivity : AppCompatActivity(), AuthCallback {
 
@@ -25,7 +24,7 @@ class MainActivity : AppCompatActivity(), AuthCallback {
     fun connectFacebook(v :View) {
         val scopes =
             Arrays.asList("email")
-        SimpleAuth.connectGoogle(scopes,this)
+        SimpleAuth.connectFacebook(scopes,this)
     }
 
     override fun onSuccess(p0: SocialUser?) {
